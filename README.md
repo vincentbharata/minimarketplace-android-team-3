@@ -18,3 +18,15 @@ Simulasi alur pengguna dari login sampai checkout.
 10. **OrderHistoryActivity** – Riwayat pesanan dummy
 
 ---
+
+📚 Referensi Belajar Layout:
+
+📐 ConstraintLayout: https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout
+
+📏 LinearLayout: https://developer.android.com/reference/android/widget/LinearLayout
+
+📍 RelativeLayout: https://developer.android.com/reference/android/widget/RelativeLayout
+
+📜 ScrollView: https://developer.android.com/reference/android/widget/ScrollView
+
+---
