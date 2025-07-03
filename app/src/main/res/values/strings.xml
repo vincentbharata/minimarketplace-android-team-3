@@ -1,3 +1,69 @@
 <resources>
-    <string name="app_name">minimarketplace</string>
+    <string name="app_name">MiniMarketplace</string>
+
+    <!-- Login & Register -->
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="sign_in_continue">Sign in to continue shopping</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+
+    <!-- Home -->
+    <string name="welcome_user">Selamat datang, %1$s!</string>
+    <string name="products">Produk</string>
+    <string name="cart">Keranjang</string>
+    <string name="profile">Profil</string>
+    <string name="order_history">Riwayat</string>
+
+    <!-- Products -->
+    <string name="product_list">Daftar Produk</string>
+    <string name="product_detail">Detail Produk</string>
+    <string name="add_to_cart">Tambah ke Keranjang</string>
+    <string name="category">Kategori: %1$s</string>
+    <string name="reviews">(%1$d ulasan)</string>
+    <string name="description">Deskripsi</string>
+
+    <!-- Cart -->
+    <string name="shopping_cart">Keranjang Belanja</string>
+    <string name="empty_cart">Keranjang belanja kosong\nMulai berbelanja sekarang!</string>
+    <string name="total">Total: %1$s</string>
+    <string name="checkout">Checkout</string>
+    <string name="added_to_cart">%1$s ditambahkan ke keranjang</string>
+
+    <!-- Checkout -->
+    <string name="order_summary">Ringkasan Pesanan</string>
+    <string name="shipping_info">Informasi Pengiriman</string>
+    <string name="phone_number">Nomor Telepon</string>
+    <string name="full_address">Alamat Lengkap</string>
+    <string name="city">Kota</string>
+    <string name="postal_code">Kode Pos</string>
+    <string name="place_order">Buat Pesanan</string>
+    <string name="order_success">Pesanan berhasil dibuat! ID: %1$s</string>
+
+    <!-- Profile -->
+    <string name="menu">Menu</string>
+    <string name="order_history_title">Riwayat Pesanan</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm">Apakah Anda yakin ingin keluar?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+
+    <!-- Orders -->
+    <string name="empty_orders">Belum ada riwayat pesanan\nMulai berbelanja sekarang!</string>
+    <string name="order_id">Order ID: %1$s</string>
+
+    <!-- Error Messages -->
+    <string name="field_required">%1$s tidak boleh kosong</string>
+    <string name="invalid_email">Email tidak valid</string>
+    <string name="password_min_length">Password minimal 6 karakter</string>
+    <string name="password_not_match">Konfirmasi password tidak sama</string>
+    <string name="login_failed">Username atau password salah</string>
+    <string name="registration_success">Registrasi berhasil! Silakan login</string>
+    <string name="login_success">Login berhasil! Selamat datang %1$s</string>
 </resources>

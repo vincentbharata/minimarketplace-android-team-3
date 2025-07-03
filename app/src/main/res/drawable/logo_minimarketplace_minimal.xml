@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+
+    <!-- Minimalist modern logo - just the essence -->
+    <!-- Main shape - modern shopping bag with clean lines -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M8,10C8,8.9 8.9,8 10,8L22,8C23.1,8 24,8.9 24,10L24,26C24,27.1 23.1,28 22,28L10,28C8.9,28 8,27.1 8,26L8,10Z" />
+
+    <!-- Handle cutouts for bag -->
+    <path
+        android:fillColor="@color/background"
+        android:pathData="M12,6C12,4.9 12.9,4 14,4L18,4C19.1,4 20,4.9 20,6L20,10L18,10L18,6L14,6L14,10L12,10L12,6Z" />
+
+    <!-- Subtle geometric accent -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M10,12L22,12L21,16L11,16Z"
+        android:fillAlpha="0.3" />
+
+    <!-- Small "M" mark -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M14,18L15,18L16,21L17,18L18,18L18,23L17.2,23L17.2,19.8L16.4,22.2L15.6,22.2L14.8,19.8L14.8,23L14,23Z" />
+
+</vector>
+

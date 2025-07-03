@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,17 +13,68 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Minimarketplace">
+
+        <!-- Splash Activity - Main Launcher -->
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.SplashActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Minimarketplace">
+            android:theme="@style/Theme.Minimarketplace.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Authentication Activities -->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Minimarketplace.NoActionBar" />
+
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Minimarketplace.NoActionBar" />
+
+        <!-- Main App Activities -->
+        <activity
+            android:name=".activities.HomeActivity"
+            android:theme="@style/Theme.Minimarketplace.NoActionBar"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ProductListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ProductDetailActivity"
+            android:theme="@style/Theme.Minimarketplace.NoActionBar"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.CartActivity"
+            android:theme="@style/Theme.Minimarketplace.NoActionBar"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.CheckoutActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:theme="@style/Theme.Minimarketplace.NoActionBar"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.OrderHistoryActivity"
+            android:exported="false" />
+
+        <!-- Original MainActivity (kept for compatibility) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Minimarketplace" />
+
     </application>
 
 </manifest>
