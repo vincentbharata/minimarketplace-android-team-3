@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Gen Z Modern Colors -->
+    <color name="primary_purple">#6C5CE7</color>
+    <color name="primary_purple_dark">#5A49D6</color>
+    <color name="primary_purple_light">#A29BFE</color>
+
+    <color name="accent_pink">#FD79A8</color>
+    <color name="accent_pink_light">#FFB3D1</color>
+    <color name="accent_cyan">#00CEC9</color>
+    <color name="accent_orange">#FF7675</color>
+
+    <!-- Missing colors referenced in activity_home.xml -->
+    <color name="primary_orange">#FF7675</color>
+    <color name="secondary_blue">#74B9FF</color>
+
+    <!-- Modern Gradients -->
+    <color name="gradient_start">#667EEA</color>
+    <color name="gradient_end">#764BA2</color>
+
+    <!-- Dark Mode Colors -->
+    <color name="dark_background">#1A1A1A</color>
+    <color name="dark_surface">#2D2D2D</color>
+    <color name="dark_card">#3A3A3A</color>
+
+    <!-- Background Colors -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secondary">#F8F9FE</color>
+    <color name="background_card">#FFFFFF</color>
+    <color name="background_glass">#66FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#2D3436</color>
+    <color name="text_secondary">#636E72</color>
+    <color name="text_hint">#B2BEC3</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_accent">#6C5CE7</color>
+
+    <!-- Status Colors -->
+    <color name="success_green">#00B894</color>
+    <color name="error_red">#E17055</color>
+    <color name="warning_yellow">#FDCB6E</color>
+    <color name="info_blue">#74B9FF</color>
+
+    <!-- Cart Badge -->
+    <color name="cart_badge_red">#FF6B9D</color>
+    <color name="cart_badge_background">#FFFFFF</color>
+
+    <!-- Price Colors -->
+    <color name="price_color">#6C5CE7</color>
+    <color name="price_discount">#00B894</color>
+    <color name="price_original">#B2BEC3</color>
+
+    <!-- Social Media Colors -->
+    <color name="instagram_gradient_start">#E1306C</color>
+    <color name="instagram_gradient_end">#F56040</color>
+    <color name="tiktok_black">#000000</color>
+    <color name="tiktok_red">#FE2C55</color>
+
+    <!-- Original colors for compatibility -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +65,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Glassmorphism -->
+    <color name="glass_white">#80FFFFFF</color>
+    <color name="glass_border">#40FFFFFF</color>
 </resources>

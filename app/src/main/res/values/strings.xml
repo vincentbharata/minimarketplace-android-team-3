@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MiniMarketplace</string>
+    <string name="cart_item_format">%1$s x%2$d</string>
 </resources>
