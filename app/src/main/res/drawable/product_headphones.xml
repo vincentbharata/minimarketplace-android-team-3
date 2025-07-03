@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M0,0 L200,0 L200,200 L0,200 Z" />
+
+    <!-- Headphone shape -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M50,80 Q50,50 100,50 Q150,50 150,80 L150,120 Q150,140 130,140 Q120,140 120,130 L120,90 Q120,80 110,80 L90,80 Q80,80 80,90 L80,130 Q80,140 70,140 Q50,140 50,120 Z" />
+
+    <!-- Ear cups -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M45,100 Q45,90 55,90 Q65,90 65,100 L65,120 Q65,130 55,130 Q45,130 45,120 Z" />
+
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M135,100 Q135,90 145,90 Q155,90 155,100 L155,120 Q155,130 145,130 Q135,130 135,120 Z" />
+</vector>
+

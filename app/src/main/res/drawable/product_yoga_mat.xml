@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#F3E5F5"
+        android:pathData="M0,0 L200,0 L200,200 L0,200 Z" />
+
+    <!-- Yoga mat rolled -->
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M40,80 L160,80 Q170,80 170,90 L170,110 Q170,120 160,120 L40,120 Q30,120 30,110 L30,90 Q30,80 40,80 Z" />
+
+    <!-- Yoga mat texture lines -->
+    <path
+        android:fillColor="#7B1FA2"
+        android:pathData="M40,85 L160,85 M40,95 L160,95 M40,105 L160,105 M40,115 L160,115"
+        android:strokeWidth="1"
+        android:strokeColor="#7B1FA2" />
+
+    <!-- Yoga mat strap -->
+    <path
+        android:fillColor="#4A148C"
+        android:pathData="M90,70 L110,70 Q115,70 115,75 L115,125 Q115,130 110,130 L90,130 Q85,130 85,125 L85,75 Q85,70 90,70 Z" />
+</vector>
+
